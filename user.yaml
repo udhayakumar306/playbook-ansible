@@ -1,0 +1,7 @@
+---
+- hosts:nodes
+  tasks:
+  - name: Creating a user in client machine
+     user:
+      name:capgemini
+       state:present
